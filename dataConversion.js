@@ -14,11 +14,11 @@ console.log("Using + operator:", c);
 // CONVERT NUMBER TO A STRING
 let distance = 150;
 // .toString()
-let y = distance.toString();
-console.log("Using toString():", y);
+let x = distance.toString();
+console.log("Using toString():", x);
 // String()
-let x = String(distance);
-console.log("Using String():", x);
+let y = String(distance);
+console.log("Using String():", y);
 
 
 // CONVERT STRING TO A DECIMAL NUMBER
