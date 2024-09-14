@@ -16,7 +16,6 @@ let distance = 150;
 // .toString()
 let y = distance.toString();
 console.log("Using toString():", y);
-
 // String()
 let x = String(distance);
 console.log("Using String():", x);
