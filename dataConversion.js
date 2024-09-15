@@ -1,28 +1,28 @@
 // CONVERT STRING TO A NUMBER
 let price = "200";
 // parseInt()
-let a = parseInt(price);
-console.log("Using parseInt():", a);
+price = parseInt(price);
+console.log("parseInt():", price);
 // Number()
-let b = Number(price);
-console.log("Using Number():", b);
+price = Number(price);
+console.log("Number():", price);
 // + Operator
-let c = +price;
-console.log("Using + operator:", c);
+price = +price;
+console.log("+ operator:", price);
 
 
 // CONVERT NUMBER TO A STRING
 let distance = 150;
 // .toString()
-let x = distance.toString();
-console.log("Using toString():", x);
+distance = distance.toString();
+console.log("toString():", distance);
 // String()
-let y = String(distance);
-console.log("Using String():", y);
+distance = String(distance);
+console.log("String():", distance);
 
 
 // CONVERT STRING TO A DECIMAL NUMBER
 let weight = "72.5";
 // parseFloat()
-let z = parseFloat(weight);
-console.log("Using parseFloat():", z);
+weight = parseFloat(weight);
+console.log("parseFloat():", weight);
